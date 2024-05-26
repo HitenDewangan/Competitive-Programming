@@ -16,3 +16,5 @@ int main() {
         cout<<endl;
     }
 }
+
+//here logic : if row_no + col_no is even then print 0 else print 1   
