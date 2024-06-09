@@ -1,6 +1,9 @@
 {
     "files.associations": {
         "GCD.C": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "xstring": "cpp",
+        "xhash": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }

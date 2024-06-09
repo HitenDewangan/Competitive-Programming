@@ -5,7 +5,7 @@
 using namespace std;
 
 int getFirstRepeating(int *a, int n){
-    const int N = 1e2+2;
+    const int N = 1e2+2; // 10^2+2
     int idx[N];
     for(int i=0; i<N; i++){
         idx[i] = -1;
