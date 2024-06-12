@@ -73,7 +73,7 @@ int main(){
     int n;
     cin>>n;
 
-    int A[n];
+    int *A = new int[n];
     for(int i=0; i<n; i++){
         cin>>A[i];
     }
