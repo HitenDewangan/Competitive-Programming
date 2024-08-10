@@ -42,6 +42,8 @@ int main(){
 
     cout<<st<<" "<<en<<endl;
 
+    delete []a;
+
     return 0;
 
 }

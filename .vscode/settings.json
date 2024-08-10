@@ -3,7 +3,8 @@
         "GCD.C": "cpp",
         "iostream": "cpp",
         "xstring": "cpp",
-        "xhash": "cpp"
+        "xhash": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
