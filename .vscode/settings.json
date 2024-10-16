@@ -4,7 +4,11 @@
         "iostream": "cpp",
         "xstring": "cpp",
         "xhash": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp",
+        "unordered_set": "cpp",
+        "span": "cpp",
+        "utility": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
