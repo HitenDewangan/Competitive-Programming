@@ -8,7 +8,9 @@
         "vector": "cpp",
         "unordered_set": "cpp",
         "span": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "cmath": "cpp",
+        "unordered_map": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
