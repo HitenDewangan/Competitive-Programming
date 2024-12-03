@@ -8,9 +8,13 @@ int solve(int n, vector<int>& marbles) {
         mp[marbles[i]]++;
     }
     
-    if (mp.size() == 1) {  // if all are same
+    if (mp.size() == 1 && n==1) {  // if all are same
+        return 2;
+    }
+    else if(mp.size() == 1 && n!=1){
         return 1;
     }
+
     
     int unique = 0, ans = 0;
     for(auto it : mp) {
@@ -24,7 +28,6 @@ int solve(int n, vector<int>& marbles) {
 
     ans += ((unique+1)/2) * 2;
 
-    
     return ans;
 }
 
