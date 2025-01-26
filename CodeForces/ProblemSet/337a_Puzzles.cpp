@@ -35,5 +35,10 @@ int main() {
 
     sort(pieces.begin(), pieces.end());
 
-    cout<<pieces[n-1]-pieces[0]<<endl;    
+    int best = INT_MAX;
+    for(int i=0; i<=m-n; i++){
+        best = min(best, pieces[i+n-1] - pieces[i]);
+    }
+
+    cout<<best<<endl;    
 }
