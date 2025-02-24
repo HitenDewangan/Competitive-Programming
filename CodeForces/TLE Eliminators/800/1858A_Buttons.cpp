@@ -16,14 +16,24 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int ans = INT_MAX;
     int n; cin>>n;
-    vector<int> a(n);
-    for(int i=0; i<n; i++){
-        cin>>a[i];
-        ans = min(ans, abs(a[i]));
-    }
+    while(n--) {
+        int a, b, c;
+        cin >> a >> b >> c;
 
-    cout<< ans <<'\n';
-    
+        if (c % 2 == 0) {
+            if (a > b) {
+                cout << "First" << endl;
+            } else {
+                cout << "Second" << endl;
+            }
+        } else {
+            if (b > a) {
+                cout << "Second" << endl;
+            } else {
+                cout << "First" << endl;
+            }
+        }
+    }
 }
+ 
